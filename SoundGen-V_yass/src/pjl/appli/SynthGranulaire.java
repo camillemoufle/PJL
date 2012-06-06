@@ -14,7 +14,7 @@ public class SynthGranulaire  implements View.OnTouchListener {
 	float frequenceSon;	
 	
 	  public boolean onTouchEvent( MotionEvent event) {
-	    	Toast.makeText(activity.getApplicationContext() , ""+event.getX()+","+event.getY(), Toast.LENGTH_SHORT).show();
+	    	//Toast.makeText(activity.getApplicationContext() , ""+event.getX()+","+event.getY(), Toast.LENGTH_SHORT).show();
 			//dureeSon = event.getX();
 			//frequenceSon = event.getY();
 			//Canvas canvas =  new Canvas();
